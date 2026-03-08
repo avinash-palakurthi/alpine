@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <body>
+    <h2>AlpineScope Test</h2>
+
+    <!-- Upload form -->
+    <form
+      action="http://localhost:8000/process"
+      method="POST"
+      enctype="multipart/form-data"
+    >
+      <input type="file" name="file" />
+      <button type="submit">Upload & Process</button>
+    </form>
+
+    <br />
+
+    <!-- PDF download button -->
+    <a href="http://localhost:8000/report/pdf" target="_blank">
+      <button>Download PDF Report</button>
+    </a>
+  </body>
+</html>
+``` --- ## Steps ``` 1. Open test.html in browser 2. Click "Upload & Process" →
+select your CSV 3. Wait for JSON response 4. Click "Download PDF Report" 5. PDF
+downloads automatically
