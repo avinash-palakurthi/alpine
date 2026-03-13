@@ -7,14 +7,172 @@ Cement,25233000,Aluminous cement
 Cement,25239000,Other hydraulic cements
 Electricity,27160000,Electrical energy
 Hydrogen,28041000,Hydrogen
-Fertilizers,28080000,Nitric acid; sulphonitric acids
+Fertilizers,28080000,Nitric acid sulphonitric acids
 Fertilizers,28141000,Anhydrous ammonia
 Fertilizers,28142000,Ammonia in aqueous solution
+Fertilizers,28151100,Sodium hydroxide solid
+Fertilizers,28342100,Potassium nitrate
 Fertilizers,31021010,Urea whether or not in aqueous solution
-Iron_Steel,72011011,Non-alloy pig iron containing <= 0.5% phosphorus
+Fertilizers,31021090,Other urea
+Fertilizers,31022100,Ammonium sulphate
+Fertilizers,31023000,Ammonium nitrate
+Fertilizers,31024000,Mixtures of ammonium nitrate with calcium carbonate
+Fertilizers,31025000,Sodium nitrate
+Fertilizers,31026000,Double salts and mixtures of calcium nitrate and ammonium nitrate
+Fertilizers,31029000,Other nitrogenous fertilisers
+Fertilizers,31031000,Superphosphates
+Fertilizers,31051000,Goods in tablets or similar forms or in packages of a gross weight not exceeding 10 kg
+Fertilizers,31052000,Mineral or chemical fertilisers containing nitrogen phosphorus and potassium
+Iron_Steel,72011011,Non-alloy pig iron containing 0.5 percent or less of phosphorus
+Iron_Steel,72011019,Non-alloy pig iron containing more than 0.5 percent of phosphorus
+Iron_Steel,72011050,Non-alloy pig iron containing more than 0.5 percent of phosphorus
+Iron_Steel,72012000,Alloy pig iron spiegeleisen
+Iron_Steel,72013000,Ferro-phosphorus
+Iron_Steel,72021100,Ferro-manganese containing more than 2 percent of carbon
+Iron_Steel,72021900,Other ferro-manganese
+Iron_Steel,72022100,Ferro-silicon containing more than 55 percent of silicon
+Iron_Steel,72022900,Other ferro-silicon
+Iron_Steel,72023000,Ferro-silico-manganese
+Iron_Steel,72024100,Ferro-chromium containing more than 4 percent of carbon
+Iron_Steel,72024900,Other ferro-chromium
+Iron_Steel,72025000,Ferro-silico-chromium
+Iron_Steel,72026000,Ferro-nickel
+Iron_Steel,72027000,Ferro-molybdenum
+Iron_Steel,72028000,Ferro-tungsten and ferro-silico-tungsten
+Iron_Steel,72029100,Ferro-titanium and ferro-silico-titanium
+Iron_Steel,72029200,Ferro-vanadium
+Iron_Steel,72029300,Ferro-niobium
+Iron_Steel,72029900,Other ferro-alloys
+Iron_Steel,72031000,Ferrous products obtained by direct reduction of iron ore
+Iron_Steel,72039000,Other spongy ferrous products
+Iron_Steel,72041000,Waste and scrap of cast iron
+Iron_Steel,72042100,Waste and scrap of stainless steel
+Iron_Steel,72042900,Other waste and scrap of alloy steel
+Iron_Steel,72043000,Waste and scrap of tinned iron or steel
+Iron_Steel,72044100,Turnings shavings chips milling dust and stampings of iron or steel
+Iron_Steel,72044900,Other waste and scrap of iron or steel
+Iron_Steel,72045000,Remelting scrap ingots of iron or steel
+Iron_Steel,72051000,Pig iron spiegeleisen and ferro-alloys in granules
+Iron_Steel,72052100,Powders of alloy steel
+Iron_Steel,72052900,Other powders of pig iron spiegeleisen ferro-alloys
 Iron_Steel,72061000,Iron and non-alloy steel in ingots
+Iron_Steel,72069000,Iron and non-alloy steel in other primary forms
+Iron_Steel,72071100,Semi-finished products of iron or non-alloy steel less than 0.25 percent carbon rectangular
+Iron_Steel,72071200,Semi-finished products of iron or non-alloy steel less than 0.25 percent carbon other
+Iron_Steel,72071900,Other semi-finished products of iron or non-alloy steel less than 0.25 percent carbon
+Iron_Steel,72072000,Semi-finished products of iron or non-alloy steel 0.25 percent or more of carbon
+Iron_Steel,72081000,Flat-rolled products of iron or non-alloy steel in coils not further worked than hot-rolled with patterns
+Iron_Steel,72082500,Flat-rolled products of iron or non-alloy steel in coils thickness 4.75mm or more
+Iron_Steel,72082600,Flat-rolled products of iron or non-alloy steel in coils thickness 3mm or more but less than 4.75mm
+Iron_Steel,72082700,Flat-rolled products of iron or non-alloy steel in coils thickness less than 3mm
+Iron_Steel,72083600,Flat-rolled products of iron or non-alloy steel not in coils thickness 10mm or more
+Iron_Steel,72083700,Flat-rolled products of iron or non-alloy steel not in coils thickness 4.75mm or more but less than 10mm
+Iron_Steel,72083800,Flat-rolled products of iron or non-alloy steel not in coils thickness 3mm or more but less than 4.75mm
+Iron_Steel,72083900,Flat-rolled products of iron or non-alloy steel not in coils thickness less than 3mm
+Iron_Steel,72084000,Flat-rolled products of iron or non-alloy steel not in coils not further worked than hot-rolled with patterns
+Iron_Steel,72085100,Flat-rolled products of iron or non-alloy steel not in coils thickness 10mm or more
+Iron_Steel,72085200,Flat-rolled products of iron or non-alloy steel not in coils thickness 4.75mm or more
+Iron_Steel,72085300,Flat-rolled products of iron or non-alloy steel not in coils thickness 3mm or more
+Iron_Steel,72085400,Flat-rolled products of iron or non-alloy steel not in coils thickness less than 3mm
+Iron_Steel,72086000,Flat-rolled products of iron or non-alloy steel not in coils clad plated or coated with tin
+Iron_Steel,72089000,Other flat-rolled products of iron or non-alloy steel
+Iron_Steel,72091500,Flat-rolled products of iron or non-alloy steel cold-rolled thickness 3mm or more
+Iron_Steel,72091600,Flat-rolled products of iron or non-alloy steel cold-rolled thickness more than 1mm but less than 3mm
+Iron_Steel,72091700,Flat-rolled products of iron or non-alloy steel cold-rolled thickness 0.5mm or more but not more than 1mm
+Iron_Steel,72091800,Flat-rolled products of iron or non-alloy steel cold-rolled thickness less than 0.5mm
+Iron_Steel,72092500,Flat-rolled products of iron or non-alloy steel cold-rolled not in coils thickness 3mm or more
+Iron_Steel,72092600,Flat-rolled products of iron or non-alloy steel cold-rolled not in coils thickness more than 1mm
+Iron_Steel,72092700,Flat-rolled products of iron or non-alloy steel cold-rolled not in coils thickness 0.5mm or more
+Iron_Steel,72092800,Flat-rolled products of iron or non-alloy steel cold-rolled not in coils thickness less than 0.5mm
+Iron_Steel,72099000,Other flat-rolled products of iron or non-alloy steel cold-rolled
+Iron_Steel,72101100,Flat-rolled products of iron or non-alloy steel plated or coated with tin thickness 0.5mm or more
+Iron_Steel,72101200,Flat-rolled products of iron or non-alloy steel plated or coated with tin thickness less than 0.5mm
+Iron_Steel,72102000,Flat-rolled products of iron or non-alloy steel plated or coated with lead
+Iron_Steel,72103000,Flat-rolled products of iron or non-alloy steel electrolytically plated or coated with zinc
+Iron_Steel,72104100,Flat-rolled products of iron or non-alloy steel corrugated plated or coated with zinc
+Iron_Steel,72104900,Other flat-rolled products of iron or non-alloy steel plated or coated with zinc
+Iron_Steel,72105000,Flat-rolled products of iron or non-alloy steel plated or coated with chromium oxides
+Iron_Steel,72106100,Flat-rolled products of iron or non-alloy steel plated or coated with aluminium-zinc alloys
+Iron_Steel,72106900,Other flat-rolled products of iron or non-alloy steel plated or coated with aluminium
+Iron_Steel,72107000,Flat-rolled products of iron or non-alloy steel painted varnished or coated with plastics
+Iron_Steel,72109000,Other flat-rolled products of iron or non-alloy steel clad plated or coated
+Iron_Steel,72111300,Flat-rolled products of iron or non-alloy steel simply hot-rolled in coils thickness less than 4.75mm
+Iron_Steel,72111400,Flat-rolled products of iron or non-alloy steel simply hot-rolled not in coils thickness 4.75mm or more
+Iron_Steel,72111900,Other flat-rolled products of iron or non-alloy steel simply hot-rolled
+Iron_Steel,72112300,Flat-rolled products of iron or non-alloy steel cold-rolled containing less than 0.25 percent of carbon
+Iron_Steel,72112900,Other flat-rolled products of iron or non-alloy steel cold-rolled
+Iron_Steel,72119000,Other flat-rolled products of iron or non-alloy steel
+Iron_Steel,72121000,Flat-rolled products of iron or non-alloy steel plated or coated with tin
+Iron_Steel,72122000,Flat-rolled products of iron or non-alloy steel electrolytically plated or coated with zinc
+Iron_Steel,72123000,Other flat-rolled products of iron or non-alloy steel plated or coated with zinc
+Iron_Steel,72124000,Flat-rolled products of iron or non-alloy steel painted varnished or coated with plastics
+Iron_Steel,72125000,Other flat-rolled products of iron or non-alloy steel clad plated or coated
+Iron_Steel,72126000,Flat-rolled products of iron or non-alloy steel clad
+Iron_Steel,72131000,Bars and rods in irregularly wound coils of iron or non-alloy steel containing indentations
+Iron_Steel,72132000,Other bars and rods in irregularly wound coils of free-cutting steel
+Iron_Steel,72139100,Other bars and rods in irregularly wound coils less than 14mm in diameter
+Iron_Steel,72139900,Other bars and rods in irregularly wound coils
+Iron_Steel,72141000,Bars and rods of iron or non-alloy steel forged
+Iron_Steel,72142000,Bars and rods of iron or non-alloy steel containing indentations ribs grooves or other deformations
+Iron_Steel,72143000,Other bars and rods of free-cutting steel
+Iron_Steel,72149100,Other bars and rods of iron or non-alloy steel rectangular cross-section
+Iron_Steel,72149900,Other bars and rods of iron or non-alloy steel
+Iron_Steel,72151000,Bars and rods of free-cutting steel not further worked than cold-formed or cold-finished
+Iron_Steel,72155000,Other bars and rods of iron or non-alloy steel not further worked than cold-formed or cold-finished
+Iron_Steel,72159000,Other bars and rods of iron or non-alloy steel
+Iron_Steel,72161000,Angles shapes and sections of iron or non-alloy steel L or T sections less than 80mm
+Iron_Steel,72162100,Angles shapes and sections of iron or non-alloy steel L sections 80mm or more
+Iron_Steel,72162200,Angles shapes and sections of iron or non-alloy steel T sections 80mm or more
+Iron_Steel,72163100,Angles shapes and sections of iron or non-alloy steel U sections
+Iron_Steel,72163200,Angles shapes and sections of iron or non-alloy steel I sections
+Iron_Steel,72163300,Angles shapes and sections of iron or non-alloy steel H sections
+Iron_Steel,72164000,Angles shapes and sections of iron or non-alloy steel L or T sections 80mm or more
+Iron_Steel,72165000,Other angles shapes and sections of iron or non-alloy steel
+Iron_Steel,72166100,Angles shapes and sections of iron or non-alloy steel cold-formed or cold-finished from flat-rolled products
+Iron_Steel,72166900,Other angles shapes and sections of iron or non-alloy steel cold-formed or cold-finished
+Iron_Steel,72169100,Other angles shapes and sections of iron or non-alloy steel obtained from flat-rolled products
+Iron_Steel,72169900,Other angles shapes and sections of iron or non-alloy steel
+Iron_Steel,72171000,Wire of iron or non-alloy steel not plated or coated
+Iron_Steel,72172000,Wire of iron or non-alloy steel plated or coated with zinc
+Iron_Steel,72173000,Wire of iron or non-alloy steel plated or coated with other base metals
+Iron_Steel,72179000,Other wire of iron or non-alloy steel
 Iron_Steel,73011000,Sheet piling of iron or steel
+Iron_Steel,73021000,Rails of iron or steel
+Iron_Steel,73060000,Other tubes pipes and hollow profiles of iron or steel
 Iron_Steel,73181510,Screws and bolts without heads
+Iron_Steel,73181590,Other screws and bolts
+Iron_Steel,73182100,Spring washers and other lock washers
+Iron_Steel,73182200,Other washers
+Iron_Steel,73182900,Other non-threaded articles
 Aluminium,76011000,Unwrought aluminium not alloyed
+Aluminium,76012000,Unwrought aluminium alloys
+Aluminium,76020000,Aluminium waste and scrap
+Aluminium,76031000,Powders of non-lamellar structure of aluminium
+Aluminium,76032000,Powders of lamellar structure and flakes of aluminium
 Aluminium,76041010,Bars and rods of aluminium not alloyed
+Aluminium,76041090,Other bars and rods of aluminium not alloyed
+Aluminium,76042100,Hollow profiles of aluminium alloys
+Aluminium,76042900,Other bars rods and profiles of aluminium alloys
+Aluminium,76051100,Wire of aluminium not alloyed maximum cross-sectional dimension more than 7mm
+Aluminium,76051900,Other wire of aluminium not alloyed
+Aluminium,76052100,Wire of aluminium alloys maximum cross-sectional dimension more than 7mm
+Aluminium,76052900,Other wire of aluminium alloys
+Aluminium,76061100,Plates sheets and strip of aluminium not alloyed rectangular
+Aluminium,76061200,Plates sheets and strip of aluminium alloys rectangular
+Aluminium,76069100,Other plates sheets and strip of aluminium not alloyed
+Aluminium,76069200,Other plates sheets and strip of aluminium alloys
+Aluminium,76071100,Foil of aluminium not backed rolled but not further worked thickness not exceeding 0.021mm
+Aluminium,76071900,Other foil of aluminium not backed
+Aluminium,76072000,Foil of aluminium backed
+Aluminium,76081000,Tubes and pipes of aluminium not alloyed
+Aluminium,76082000,Tubes and pipes of aluminium alloys
+Aluminium,76090000,Tube or pipe fittings of aluminium
+Aluminium,76101000,Doors windows and their frames and thresholds for doors of aluminium
+Aluminium,76109000,Other structures and parts of structures of aluminium
+Aluminium,76111000,Reservoirs tanks vats and similar containers of aluminium capacity exceeding 300 litres
+Aluminium,76120000,Casks drums cans boxes and similar containers of aluminium
+Aluminium,76130000,Containers for compressed or liquefied gas of aluminium
+Aluminium,76151000,Table kitchen or other household articles and parts thereof of aluminium
 Aluminium,76161000,Nails tacks staples screws bolts nuts of aluminium
+Aluminium,76169100,Cloth grill netting and fencing of aluminium wire
+Aluminium,76169900,Other articles of aluminium
