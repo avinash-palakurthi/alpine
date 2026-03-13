@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AlpineScope — AI-Native CBAM Compliance Platform
 
-## Getting Started
+Live: [alpinescope.pro](https://alpinescope.pro)
 
-First, run the development server:
+AlpineScope classifies EU imports against CBAM Annex I,
+calculates embedded emissions, and estimates carbon
+certificate costs using a LangGraph agent pipeline.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Backend**: FastAPI + LangGraph + OpenAI + Qdrant
+- **Frontend**: Next.js 14 + TailwindCSS
+- **Infra**: AWS EC2 + Nginx + S3
+- **AI**: RAG over EU regulation PDFs + GPT-4o-mini
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Agent Pipeline
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Supervisor → routes each import row
+2. Classifier → RAG + GPT-4o-mini → CN code
+3. Scope → checks CBAM Annex I coverage
+4. Emission → looks up tCO2 per tonne
+5. ETS → fetches carbon price
+6. Cost → calculates CBAM certificate cost
+7. Reporting → aggregates results
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+- Upload CSV/Excel import files
+- AI classifies product descriptions → CN codes
+- CBAM coverage check across 6 sectors
+- Emission factor lookup from EU default values
+- ETS price integration
+- PDF compliance report download
+- Risk flagging (High/Medium/Low)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Sectors Covered
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Steel · Aluminium · Cement · Fertilizers · Hydrogen · Electricity
 
-## Deploy on Vercel
+## Run Locally
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+cd backend
+uv venv && uv sync
+uvicorn main:app --reload --port 8000
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+cd frontend
+npm install && npm run dev
