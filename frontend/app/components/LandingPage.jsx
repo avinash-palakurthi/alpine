@@ -152,7 +152,7 @@ export default function LandingPage() {
           <div className="flex items-center gap-3">
             <button
               onClick={() => router.push("/cbam")}
-              className="bg-emerald-500 hover:bg-emerald-600 text-white px-3 sm:px-5 py-2 rounded-lg text-xs sm:text-sm font-semibold transition-all hover:shadow-lg whitespace-nowrap"
+              className=" hidden sm:block  bg-emerald-500  hover:bg-emerald-600 text-white px-3 sm:px-5 py-2 rounded-lg text-xs sm:text-sm font-semibold transition-all hover:shadow-lg whitespace-nowrap"
             >
               Try Free Demo →
             </button>
