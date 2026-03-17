@@ -2,6 +2,7 @@ from fastapi import FastAPI, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import Response
 from pipeline import app_graph, AgentState
+from explanation.engine import generate_explanation
 from agents.pdf_report import generate_pdf
 import pandas as pd
 import asyncio
@@ -177,3 +178,23 @@ async def download_pdf():
         media_type="application/pdf",
         headers={"Content-Disposition": "attachment; filename=cbam_report.pdf"}
     )
+
+# Explanation
+@app.get("/explain/{index}")
+def explain(index: int):
+    if not last_report:
+        return {"error": "No report available. Upload a file first."}
+
+    results = last_report.get("results", [])
+
+    if index < 0 or index >= len(results):
+        return {"error": "Invalid index"}
+
+    state = results[index]
+
+    explanation = generate_explanation(state)
+
+    return {
+        "data": state,
+        "explanation": explanation
+    }

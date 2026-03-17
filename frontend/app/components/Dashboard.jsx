@@ -68,7 +68,6 @@ export default function Dashboard({ data, onBack }) {
           ← Back to Results
         </button>
       </div>
-
       {/* Demo/Beta notice */}
       <div className="bg-blue-50 border border-blue-100 rounded-xl px-4 py-2.5 flex items-center gap-2 text-xs text-blue-700">
         <span>ℹ️</span>
@@ -77,7 +76,6 @@ export default function Dashboard({ data, onBack }) {
           (March 2026). Dynamic live pricing coming in the next release.
         </span>
       </div>
-
       {/* Top Stats — 5 cards */}
       <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
         {/* CBAM Exposure */}
@@ -133,7 +131,6 @@ export default function Dashboard({ data, onBack }) {
           <p className="text-xs text-gray-400 mt-1.5">static · March 2026</p>
         </div>
       </div>
-
       {/* Risk Summary Row */}
       <div className="grid grid-cols-3 gap-3">
         <div className="bg-red-50 border border-red-100 rounded-xl p-3 text-center">
@@ -157,7 +154,6 @@ export default function Dashboard({ data, onBack }) {
           </p>
         </div>
       </div>
-
       {/* Charts Row */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {/* Cost by Category */}
@@ -228,7 +224,6 @@ export default function Dashboard({ data, onBack }) {
           </div>
         </div>
       </div>
-
       {/* Action Buttons */}
       <div className="grid grid-cols-2 gap-3">
         <button
@@ -244,6 +239,31 @@ export default function Dashboard({ data, onBack }) {
           ← Back to Results
         </button>
       </div>
+      {/* Action Buttons */}
+      {/* <div className="grid grid-cols-3 gap-3">
+        <button
+          onClick={handleDownloadPDF}
+          className="bg-white border border-gray-200 hover:border-emerald-300 text-gray-700 hover:text-emerald-700 py-3 rounded-xl font-semibold text-sm transition-all flex items-center justify-center gap-2"
+        >
+          ↓ Download PDF Report
+        </button>
+
+        <button
+          onClick={onBack}
+          className="bg-emerald-500 hover:bg-emerald-600 text-white py-3 rounded-xl font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-emerald-100"
+        >
+          ← Back to Results
+        </button>
+
+        {/* ✅ NEW BUTTON */}
+      {/* <button
+          onClick={() => (window.location.href = `/explain/0`)}
+          className="bg-white border border-gray-200 hover:border-blue-300 text-gray-700 hover:text-blue-700 py-3 rounded-xl font-semibold text-sm transition-all flex items-center justify-center gap-2"
+        >
+          🔍 View Explanation
+        </button>
+      </div> */}{" "}
+      *
     </div>
   );
 }
